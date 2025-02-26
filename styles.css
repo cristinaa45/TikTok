@@ -1,9 +1,17 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #E9E4E5; 
-  color:#333;
-  text-aling:center;
+       font-family: Arial, sans-serif;
+       background-color: #FFCDD2;
+       color: #333;
+       text-align: center;
+   }
+
+h2 {  
+    text-align: center;
+    color: #0F0F0F;
 }
 ul {
-           list-style-type:square;
-    }
+    list-style-type: square; 
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}

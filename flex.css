@@ -28,4 +28,10 @@ body {
   border: 10px solid var(--clr-accent);
   border-radius: 10px;
 }
-  
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align item:flex-start;
+}
+

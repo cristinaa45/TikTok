@@ -30,7 +30,7 @@ body {
     margin: 0 auto;
     border: 10px solid var(--clr-dark);
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: space-evenly;
     align-items: flex-start;
 }
@@ -38,7 +38,7 @@ body {
 .item {
     width: 150px;
     height: 150px;
-    background-color: #fb7185;
+    background-color: #c09df5;
     padding: 1em;
     font-weight: 700;
     color: var(--clr-light);

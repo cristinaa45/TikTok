@@ -3,10 +3,10 @@ const FrederickDiv = document.getElementById('Frederick');
 
 const infoDiv = document.getElementById('info');
 
-MCDonaldDiv.addEventListener('click', function() {
-  infoDiv.innerHTML = 'This Is MCDONALD';
+TikTokDiv.addEventListener('click', function() {
+  infoDiv.innerHTML = 'This Is TikTok';
 });
 
-TrumpDiv.addEventListener('click', function() {
-  infoDiv.innerHTML = 'Trump Working on MCDONALD? WHAAAAAA';
+FrederickDiv.addEventListener('click', function() {
+  infoDiv.innerHTML = 'Frederick Douglass bio';
 });

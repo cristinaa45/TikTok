@@ -1,5 +1,5 @@
-const Div = document.getElementById('MCDonald');
-const Div = document.getElementById('Trump');
+const MCDonaldDiv = document.getElementById('MCDonald');
+const TrumpDiv = document.getElementById('Trump');
 
 const infoDiv = document.getElementById('info');
 

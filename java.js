@@ -54,6 +54,4 @@ for (let a = 1; a <= 20; a++) {
   }
 
   container.appendChild(p);
-}
-
-
+};

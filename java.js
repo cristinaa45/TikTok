@@ -47,11 +47,11 @@ for (let a = 1; a <= 20; a++) {
   const p = document.createElement("p");
   p.textContent = "Red or blue?" + a ;
 
-  if (a % 2 ==0) {
+  if (a % 2 == 0) {
     p.style.color = "blue";
   } else {
     p.style.color = "red";
   }
 
   container.appendChild(p);
-};
+}

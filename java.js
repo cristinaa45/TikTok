@@ -26,7 +26,8 @@ resultText.innerText = "You can drive";
   resultImage.src = "https://car-images.bauersecure.com/wp-images/2697/best-electric-cars-2025-renault-scenic-white-front-driving.jpg";
 } else if (age > 25) {
 resultText.innerText = "You can drive and rent a car";
-  resultText.style.color
+  resultText.style.color;
+}
 
 const container = document.getElementById("list-container");
 

@@ -16,7 +16,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
     let resultText = document.getElementById("resultText");
   let resultImage = document.getElementById("resultImage");
 
-if (age < 16) {
+if (age <= 15) {
 resultText.innerText = "You cannot drive";
   resultText.style.color = "red"; // change color
   resultImage.src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Left_side_of_Flying_Pigeon.jpg";

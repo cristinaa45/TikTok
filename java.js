@@ -1,3 +1,4 @@
+/*
 const TikTokDiv = document.getElementById('TikTok');
 const FrederickDiv = document.getElementById('Frederick');
 
@@ -29,9 +30,9 @@ resultText.innerText = "You can drive";
 resultText.innerText = "You can drive and rent a car";
   resultText.style.color;
 }
-
+*/
 const container = document.getElementById("list-container");
-
+/* this is the start of my new project */
 for (let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
   p.textContent = "This is item #" + i;

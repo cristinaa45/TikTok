@@ -15,6 +15,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
   let age = document.getElementById("ageInput").value;
     let resultText = document.getElementById("resultText");
   let resultImage = document.getElementById("resultImage");
+}
 
 if (age <= 15) {
 resultText.innerText = "You cannot drive";

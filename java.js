@@ -12,9 +12,9 @@ FrederickDiv.addEventListener('click', function() {
 });
 
 document.getElementById("checkButton").addEventListener("click", function() {
-  let age = document.getElementById("").value;
-    let resultText = document.getElementById("");
-  let resultImage = document.getElementById("");
+  let age = document.getElementById("ageInput").value;
+    let resultText = document.getElementById("resultText");
+  let resultImage = document.getElementById("resultImage");
 
 if (age < 16) {
 resultText.innerText = "You cannot drive";
